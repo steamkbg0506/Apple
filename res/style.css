@@ -66,3 +66,14 @@
                 font-size: 32pt;
                 font-weight: bold;
             }
+
+
+            .catagory-devices{
+                float: left;
+                color: black;
+                position:relative;
+                margin-left: 10%;
+                font-size: 8pt;
+                font-weight: bold;
+            }
+
