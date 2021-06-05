@@ -1,101 +1,24 @@
 <html>
     <head>
         <title>Apple Products</title>
-        <style>
-	        @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-
-	        body {
-		        font-family: 'Jua', serif;
-		        background: #12c2e9;  /* fallback for old browsers */
-                background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-                background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	        }
-	        h1, h2 {
-	            text-align: center;
-	        }
-	        a {
-	           line-height: 10px;
-	           text-decoration: none;
-               color: rgb(0, 233, 175)
-	        }
-            .can {
-			    color: rgb(0, 195, 255);
-			    text-align: center;
-            }
-            .button {
-                color: rgb(0, 195, 255);
-                background-color: rgb(225, 225, 225);
-                border-top-left-radius: 5px; 
-                border-bottom-left-radius: 5px;
-                border-top-right-radius: 5px; 
-                border-bottom-right-radius: 5px;
-                font-family: 'Jua', serif;
-                font-size: 20px;
-                padding: 10px 20px;
-            }
-            .button:hover{
-                color: white;
-                background-color: rgb(0, 195, 255);
-            }
-            ul.category {
-                position:relative;
-                width:100%;
-                padding:0px;
-                margin-top:10px;
-                list-style-type:none;
-            }
-            ul.category li {
-                position:relative;
-                float:left;
-                margin-left:500px;;
-                font-size:16pt;
-                font-weight:bold;
-            }
-
-            ul.category li:first-child {
-                margin-left:0px;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="./res/style.css">
     </head>
     <body>
         <h1>Hello, Apple!</h1>
-        <h2>This website introduce about the Apple's products.</h2>
-        <center><p class="can">???: Can you speak English?</p></center>
+        <h2 class="subtitle">This website introduce about the Apple's products.</h2>
+        <!--<center><p class="can">???: Can you speak English?</p></center>-->
+        <center>
         <ul class="category">
-            <li>1. iPhone</li>
-            <li>2. iPad</li>
-            <li>3. Mac</li>
+        <h3 class="catagory-indicator"><a href="./routes/iPhone.html">iPhone 제품군</a></h3>
+        <!--<br>-->
+        <h3 class="catagory-indicator"><a href="./routes/iPad.html">iPad 제품군</a></h3>
+        <!--<br>-->
+        <h3 class="catagory-indicator"><a href="./routes/Mac.html">Mac 제품군</a></h3>
+        <!--<br>-->
+        <h3 class="catagory-indicator"><a href="./routes/Music.html">Music 제품군</a></h3>
+        <!--<br>-->
+        <h3 class="catagory-indicator"><a href="https://support.apple.com/ko-kr/">Can you speak English?</a></h3>
         </ul>
-	<h3> <h3>
-        <h4 class="iPhone"><a href="#">iPhone</a></h4>
-        <h4 class="iPhone">iPhone 3G</h4>
-        <h4 class="iPhone">iPhone 3GS</h4>
-        <h4 class="iPhone">iPhone 4</h4>
-        <h4 class="iPhone">iPhone 4S</h4>
-        <h4 class="iPhone">iPhone 5</h4>
-        <h4 class="iPhone">iPhone 5C</h4>
-        <h4 class="iPhone">iPhone 5S</h4>
-        <h4 class="iPhone">iPhone 6</h4>
-        <h4 class="iPhone">iPhone 6 Plus</h4>
-        <h4 class="iPhone">iPhone 6S</h4>
-        <h4 class="iPhone">iPhone 6S Plus</h4>
-        <h4 class="iPhone">iPhone SE</h4>
-        <h4 class="iPhone">iPhone 7</h4>
-        <h4 class="iPhone">iPhone 7 Plus</h4>
-        <h4 class="iPhone">iPhone 8</h4>
-        <h4 class="iPhone">iPhone 8 Plus</h4>
-        <h4 class="iPhone">iPhone X</h4>
-        <h4 class="iPhone">iPhone XS</h4>
-        <h4 class="iPhone">iPhone XS Max</h4>
-        <h4 class="iPhone">iPhone XR</h4>
-        <h4 class="iPhone">iPhone 11</h4>
-        <h4 class="iPhone">iPhone 11 Pro</h4>
-        <h4 class="iPhone">iPhone 11 Pro Max</h4>
-        <h4 class="iPhone">iPhone SE2</h4>
-        <h4 class="iPhone">iPhone 12</h4>
-        <h4 class="iPhone">iPhone 12 mini</h4>
-        <h4 class="iPhone">iPhone 12 Pro</h4>
-        <h4 class="iPhone">iPhone 7 Pro Max</h4>
-        <h3>2. iPad</h3>
+        </center>
     </body>
 </html>
